@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Atualizar Cadastro</title>
 </head>
 <body>
 
@@ -94,7 +94,7 @@
         <button>FAQS</button>
         <button>Contate-nos</button>
         <button>Suporte</button>
-        <button>Sair do perfil</button>
+        <a href="TelaLogin.php"><button>Sair do perfil</button></a>
         <form action="TelaLogin.php" method="POST">
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             <input type="hidden" name="tipo_query" value ="deletar">
